@@ -125,14 +125,15 @@ function App() {
   );
 
   return (
-   <>
-      <Navbar/>
+    <>
+      <Navbar />
       <h1 className="text-warning container">Welcome to the worlds largest brand</h1>
       <div className="container d-flex flex-wrap">
-        {studentCardList} 
+        {studentCardList}
       </div>
+      <Scrollaos /> {/* Include the Scrollaos component here */}
     </>
-  )
+  );
 }
 
 export default App

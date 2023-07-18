@@ -4,11 +4,11 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
-        <a className="navbar-brand" href="/"><span className="text-warning">Shein.</span>shop</a>
+        <a className="navbar-brand" href="/"><span className="bg-dark-75 text-warning">Shein.</span>shop</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
+        <div className="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <a className="nav-link" href="/">Home</a>
